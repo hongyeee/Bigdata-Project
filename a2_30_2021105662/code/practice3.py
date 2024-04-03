@@ -1,7 +1,7 @@
 import requests
 import json
 
-apikey = "aee1f189c593195ee505a4e3d7f5ade3"
+apikey = {"token"}
 cities = ["Seoul,KR", "Tokyo,JP","New York,US"]
 
 api = "https://api.openweathermap.org/data/2.5/weather?q={city}&appid={apikey}"
